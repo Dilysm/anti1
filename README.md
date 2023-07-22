@@ -10,7 +10,7 @@ bash install.sh
 ======================================================================
 GET rule
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/DauDau432/Anti-Ddos/main/get-rules.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/Dilysm/anti1/main/get-rules.sh)
 ```
 
 Cấu trúc GET rules
