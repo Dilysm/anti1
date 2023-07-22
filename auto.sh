@@ -1,1 +1,1 @@
-bash <(curl -Ls https://raw.githubusercontent.com/DauDau432/Anti-Ddos/main/auto-rule.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/Dilysm/anti1/main/auto-rule.sh)
