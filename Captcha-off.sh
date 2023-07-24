@@ -4,7 +4,7 @@ curl -X PUT "https://api.cloudflare.com/client/v4/zones/93839969fb427c787e0de6ff
      -H "Content-Type: application/json" \
      --data '{
      "action": "managed_challenge",
-     "priority": 564,
+     "priority": 2000,
      "paused": true,
      "description": "Managed Challenge Việt Nam",
      "filter": {
