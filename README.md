@@ -1,7 +1,7 @@
 # Chương trình quản lý auto on/off rule cloudflare
 # ***Cài đặt***
 ```
-wget https://raw.githubusercontent.com/DauDau432/Anti-Ddos/main/install.sh
+wget https://raw.githubusercontent.com/Dilysm/anti1/main/install.sh
 ```
 ```
 bash install.sh
