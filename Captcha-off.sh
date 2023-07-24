@@ -9,7 +9,7 @@ curl -X PUT "https://api.cloudflare.com/client/v4/zones/93839969fb427c787e0de6ff
      "description": "Managed Challenge Việt Nam",
      "filter": {
     "id": "51ba7ba176ac422a8e82358ef8dd4572",
-    "expression": "(http.user_agent contains \"iPhone\" and ip.geoip.country eq \"JP\" and http.request.version in {\"HTTP/2\" \"HTTP                   /3\"} and http.request.method in {\"GET\" \"POST\"} and http.host eq \"4gsoftbank.tech\") or (http.user_agent contains \"Android\" and ip.geoi                   p.country eq \"JP\" and http.request.version in {\"HTTP/2\" \"HTTP/3\"} and http.request.method in {\"GET\" \"POST\"} and http.host eq \"                   4gsoftbank.tech\") or (http.user_agent contains \"Windows\" and ip.geoip.country eq \"JP\" and http.request.version in {\"HTTP/2\" \"HTTP/3\"}                    and http.request.method in {\"GET\" \"POST\"} and http.host eq \"4gsoftbank.tech\")",
+    "expression": "(http.user_agent contains \"iPhone\" and ip.geoip.country in {\"JP\" \"VN\"} and http.request.version in {\"HTTP/2\" \"HTTP/3\"} and http.request.method in {\"GET\" \"POST\"} and http.host eq \"4gsoftbank.tech\") or (http.user_agent eq \"Android\" and ip.geoip.country in {\"JP\" \"VN\"} and http.request.version in {\"HTTP/2\" \"HTTP/3\"} and http.request.method in {\"GET\" \"POST\"} and http.host eq \"4gsoftbank.tech\") or (http.user_agent contains \"Windows\" and ip.geoip.country in {\"JP\" \"VN\"} and http.request.version in {\"HTTP/2\" \"HTTP/3\"} and http.request.method in {\"GET\" \"POST\"} and http.host eq \"4gsoftbank.tech\")",
     "paused": false,
     "description": "Managed Challenge Việt Nam"
   }
